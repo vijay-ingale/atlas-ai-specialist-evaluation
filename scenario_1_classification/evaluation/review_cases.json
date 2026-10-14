@@ -1,0 +1,7 @@
+[
+  {"message":"I was charged twice and cannot log in", "expected_behavior":"Mixed intent: review preferred; single-label output is a limitation"},
+  {"message":"It does not work", "expected_behavior":"Ambiguous: review preferred"},
+  {"message":"Bonjour, mon paiement a echoue", "expected_behavior":"Unsupported language: review preferred, not guaranteed by current detector"},
+  {"message":"zxqv plmn", "expected_behavior":"Zero vocabulary: mandatory review"},
+  {"message":"", "expected_behavior":"Reject empty input"}
+]
